@@ -1,0 +1,165 @@
+/* .main_nav{
+  
+} */
+
+/* *{
+  font-family: 'Libre Baskerville', serif;
+} */
+
+.mw-120{
+  min-width: 200px;
+}
+
+.options{
+  margin-right: 10px;
+  margin-left: -13px;
+}
+
+/* #navbarSupportedContent{
+
+} */
+
+/* .resizable{
+  resize:both;
+  overflow:scroll;
+} */
+
+.active_tab{
+  font-weight: bold;
+  border-bottom: 2px solid greenyellow;
+}
+.texteditor{
+  border-style: groove;
+  border-color: black;
+  
+}
+
+#icons{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;  
+}
+.img{
+  width: 600px;
+  margin-left: 20px;
+}
+
+.createbutton{
+  width: 100px;
+}
+
+.mainbtn{
+  width: 200px;
+  height: 50px;
+}
+
+.main_cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  /* width: 100%;
+  height: 100%; */
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.card .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .text img{
+    height: 170px;
+    border-radius: 50%;
+  margin-bottom:10px;
+}
+
+.card .text h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.card .text h5:nth-of-type(1){
+    color: rgb(35, 182, 219);
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.card .text p:nth-of-type(2){
+    margin: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.card .links{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card .links i{
+    color: rgb(35, 182, 219);
+    /* color :rgb(160, 157, 4); */
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.card .links i:hover{
+    color:rgb(29, 157, 189) ;
+}
+
+@media screen and (max-width: 600px) {
+  .main{
+    display: flex;
+    flex-direction: column-reverse;
+   
+  }
+  .mw-120{
+    min-width: 100px;
+  }
+  .sidebar {
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+  .second-section #icons{
+    margin-top: 20px;
+  }
+  .inp_out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_editor{
+    margin-left: 10px;
+  }
+  .main_editor .texteditor{
+    height: 30px;
+  }
+  .img_container{
+    padding-top: 40px;
+  }
+  .card{
+    margin-top: 20px;
+    width: 90%;
+    padding: 15px;
+  }
+  .card .text{
+    padding: -40px;
+  }
+  .card .links{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+}
